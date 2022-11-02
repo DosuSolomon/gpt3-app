@@ -1,18 +1,35 @@
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Manrope', sans-serif;
-  background: #040C18;
  
 }
-*{
-  list-style-type: none;
+.section{
+  padding:0 130px;
 }
-:root{
-  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+.gradient-bg{
+  background:-moz-linear-gradient(134deg, #002853 0%, #040C18 29%, #040C18 67%, #072D56 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(134deg, #002853 0%, #040C18 29%, #040C18 67%, #072D56 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(134deg, #002853 0%, #040C18 29%, #040C18 67%, #072D56 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#072D56', endColorstr='#002853', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(134deg, #002853 0%, #040C18 29%, #040C18 67%, #072D56 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(134deg, #002853 0%, #040C18 29%, #040C18 67%, #072D56 100%);
 }
